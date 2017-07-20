@@ -9,11 +9,11 @@ resources:
 - name: deploy-attendee-service
   type: cf
   source:
-    api: api.system.dev.digifabricpcf.com        #<----- REPLACE ME
+    api: api.system.dev.digifabricpcf.com
     username: {{cf-user}}
     password: {{cf-password}}
-    organization: skrishna-pal    #<----- REPLACE ME
-    space: forConcourse         #<----- REPLACE ME
+    organization: skrishna-pal
+    space: forConcourse
     skip_cert_check: true
 
 jobs:
