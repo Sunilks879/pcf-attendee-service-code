@@ -3,7 +3,7 @@ resources:
 - name: attendee-service
   type: git
   source:
-    uri: https://github.com/rishi14/pcf-attendee-service-code
+    uri: https://github.com/Sunilks879/pcf-attendee-service-code
     branch: concourse_deployment
 
 - name: deploy-attendee-service
